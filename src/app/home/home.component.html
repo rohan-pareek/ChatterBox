@@ -1,0 +1,26 @@
+<div class="cb-home">
+    <div class="container">
+    <div class="hero">
+        <div class="hero-image">
+            <img src = "../../assets/cb-home.png" />
+        </div>
+        <div class="hero-text">
+            <h3>Friends . Chat . Fun</h3>
+            <p>ChatterBox helps you get connected with your friends and near ones anytime anywhere</p>
+        </div>
+    </div>
+    <div class="hero-form">
+        <div class="auth-form">
+            <div class="auth-tab">
+                <div class="auth-tab-buttons">
+                    <button routerLink = "/login" routerLinkActive = "active-home-button">Login</button>
+                    <button routerLink = "/signup" routerLinkActive = "active-home-button">Signup</button>
+                </div>
+                <div class="auth-tab-content">
+                    <router-outlet></router-outlet>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
